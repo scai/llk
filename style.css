@@ -46,19 +46,22 @@ tile#highlight {
     display: none;
 }
 
-tile.type-1 {
+tile[data-face="1"] {
     background-color:azure;
 }
-tile.type-2 {
+tile[data-face="2"]{
     background-color:lightsalmon;
 }
 
-tile.type-3 {
+tile[data-face="3"] {
     background-color:chocolate;
 }
-tile.type-4 {
+tile[data-face="4"] {
     background-color: darkslateblue;
 }
-tile.type-5 {
+tile[data-face="5"] {
     background-color: goldenrod;
+}
+tile[data-break="true"] {
+    background-color: black;
 }
